@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="456dp"
+    android:height="456dp"
+    android:viewportWidth="456"
+    android:viewportHeight="456">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 276 32 H 292 V 48 H 276 V 32 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 244 112 H 260 V 128 H 244 V 112 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 212 112 H 228 V 128 H 212 V 112 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 244 144 H 260 V 160 H 244 V 144 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 212 144 H 228 V 160 H 212 V 144 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M188,112h-88c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h88c4.418,0,8-3.582,8-8v-32C196,115.582,192.418,112,188,112z M180,144h-72v-16h72V144z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M186.504,203.344c-2.837-3.592-8.049-4.204-11.641-1.367c-0.507,0.401-0.966,0.86-1.367,1.367 C172.456,204.8,148,239.328,148,272c0,17.673,14.327,32,32,32s32-14.327,32-32C212,239.328,187.544,204.8,186.504,203.344z M180,288c-8.837,0-16-7.163-16-16c1.327-17.36,6.815-34.145,16-48.936c9.185,14.791,14.673,31.576,16,48.936 C196,280.837,188.837,288,180,288z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 140 320 H 220 V 336 H 140 V 320 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 124 352 H 236 V 368 H 124 V 352 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M420,40v32h-24c-4.418,0-8,3.582-8,8v64c0,4.418,3.582,8,8,8h8v208h-32V216c0-4.418-3.582-8-8-8h-40v-32 c0-2.518-1.186-4.889-3.2-6.4L292,148V96h24c4.418,0,8-3.582,8-8V8c0-4.418-3.582-8-8-8H36c-4.418,0-8,3.582-8,8v80 c0,4.418,3.582,8,8,8h24v312H28c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h304c4.418,0,8-3.582,8-8v-32c0-4.418-3.582-8-8-8 h-40V284l28.8-21.6c2.014-1.511,3.2-3.882,3.2-6.4v-32h32v144c0,4.418,3.582,8,8,8h48c4.418,0,8-3.582,8-8V152h8 c4.418,0,8-3.582,8-8V40H420z M324,424v16H36v-16H324z M76,408V96h200v312H76z M44,80V48h216V32H44V16h264v64H44z M308,252l-16,12 v-96l16,12V252z M420,136h-16V88h16V136z" />
+</vector>

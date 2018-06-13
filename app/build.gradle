@@ -1,0 +1,64 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.kbaquri.gaze"
+        minSdkVersion 24
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // ARCore library
+    implementation 'com.google.ar:core:1.2.0'
+
+    implementation "com.google.ar.sceneform:core:1.0.0"
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.0.0"
+
+    implementation 'com.github.appoly:ARCore-Location:1.0.5'
+
+    // Obj - a simple Wavefront OBJ file loader
+    // https://github.com/javagl/Obj
+    implementation 'de.javagl:obj:0.2.1'
+
+    // https://mvnrepository.com/artifact/javax.vecmath/vecmath
+    implementation group: 'javax.vecmath', name: 'vecmath', version: '1.5.2'
+
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:animated-vector-drawable:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:mediarouter-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+
+    implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    implementation 'com.google.android.gms:play-services-places:15.0.1'
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    maven { url 'https://jitpack.io' }
+}
+
+
+apply plugin: 'com.google.ar.sceneform.plugin'
